@@ -1700,6 +1700,8 @@ static NSString *const SEQUENCE_NUMBER = @"sequence_number";
 #if !TARGET_OS_OSX
     // unarchive using new NSKeyedUnarchiver method from iOS 9.0 that doesn't throw exceptions
     if (@available(iOS 9.0, *)) {
+#else
+    if (@available(macOS 10.11, *)) {
 #endif
         NSFileManager *fileManager = [NSFileManager defaultManager];
         if ([fileManager fileExistsAtPath:path]) {
@@ -1719,7 +1721,7 @@ static NSString *const SEQUENCE_NUMBER = @"sequence_number";
             } else {
                 AMPLITUDE_ERROR(@"ERROR: File data is nil for file: %@", path);
             }
-
+            
             // if reach here, then an error occured during unarchiving, delete corrupt file
             [fileManager removeItemAtPath:path error:&error];
             if (error != nil) {
@@ -1729,6 +1731,10 @@ static NSString *const SEQUENCE_NUMBER = @"sequence_number";
 #if !TARGET_OS_OSX
     } else {
         AMPLITUDE_LOG(@"WARNING: user is using a version of iOS that is older than 9.0, skipping unarchiving of file: %@", path);
+    }
+#else
+    } else {
+        AMPLITUDE_LOG(@"WARNING: user is using a version of macOS that is older than 10.11, skipping unarchiving of file: %@", path);
     }
 #endif
     return nil;

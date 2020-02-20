@@ -29,6 +29,37 @@
 		127147CD23B6A7F90015248C /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD305A210264FA00267B2A /* AMPTrackingOptions.m */; };
 		12E8A614238740DB00921FC7 /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E8A613238740AF00921FC7 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12E8A615238740DC00921FC7 /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E8A613238740AF00921FC7 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747923FEBF9A006AA3E7 /* AmplitudePublic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB173EC23FE8601006AA3E7 /* AmplitudePublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747A23FEBF9A006AA3E7 /* AMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E96785E21A48E93F00887CCD /* AMPConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747B23FEBF9A006AA3E7 /* AMPDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA92711C2376680043178E /* AMPDatabaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747C23FEBF9A006AA3E7 /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E96785E31A48E93F00887CCD /* AMPDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747D23FEBF9A006AA3E7 /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA92731C2376680043178E /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747E23FEBF9A006AA3E7 /* Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = E96785E61A48E93F00887CCD /* Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1747F23FEBF9A006AA3E7 /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E8A613238740AF00921FC7 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748023FEBF9A006AA3E7 /* AMPLocationManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E96785E81A48E93F00887CCD /* AMPLocationManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748123FEBF9A006AA3E7 /* AMPRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 60227C091CC5AB8A007C117B /* AMPRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748223FEBF9A006AA3E7 /* AMPTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FD3058210264C000267B2A /* AMPTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748323FEBF9A006AA3E7 /* AMPURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D40E1791AB3BF7F0095C7C6 /* AMPURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748423FEBF9A006AA3E7 /* AMPURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AFE7301F6B636B00DF9A88 /* AMPURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748523FEBF9A006AA3E7 /* AMPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA92751C2376680043178E /* AMPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748623FEBF9A006AA3E7 /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6E194C1ACCDE1C00352C6C /* ISPCertificatePinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748723FEBF9A006AA3E7 /* ISPPinnedNSURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6E194E1ACCDE1C00352C6C /* ISPPinnedNSURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748823FEBF9A006AA3E7 /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6E19501ACCDE1C00352C6C /* ISPPinnedNSURLSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1748923FEBFC6006AA3E7 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC708591AD4B28300949778 /* AMPConstants.m */; };
+		1CB1748A23FEBFC6006AA3E7 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BA92721C2376680043178E /* AMPDatabaseHelper.m */; };
+		1CB1748B23FEBFC6006AA3E7 /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E96785E41A48E93F00887CCD /* AMPDeviceInfo.m */; };
+		1CB1748C23FEBFC6006AA3E7 /* AMPIdentify.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BA92741C2376680043178E /* AMPIdentify.m */; };
+		1CB1748D23FEBFC6006AA3E7 /* Amplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = E96785E71A48E93F00887CCD /* Amplitude.m */; };
+		1CB1748E23FEBFC6006AA3E7 /* AMPLocationManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E96785E91A48E93F00887CCD /* AMPLocationManagerDelegate.m */; };
+		1CB1748F23FEBFC6006AA3E7 /* AMPRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 60227C0A1CC5AB8A007C117B /* AMPRevenue.m */; };
+		1CB1749023FEBFC6006AA3E7 /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD305A210264FA00267B2A /* AMPTrackingOptions.m */; };
+		1CB1749123FEBFC6006AA3E7 /* AMPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40E17A1AB3BF7F0095C7C6 /* AMPURLConnection.m */; };
+		1CB1749223FEBFC6006AA3E7 /* AMPURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AFE7311F6B636F00DF9A88 /* AMPURLSession.m */; };
+		1CB1749323FEBFC6006AA3E7 /* AMPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BA92761C2376680043178E /* AMPUtils.m */; };
+		1CB1749423FEBFC6006AA3E7 /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E194D1ACCDE1C00352C6C /* ISPCertificatePinning.m */; };
+		1CB1749523FEBFC6006AA3E7 /* ISPPinnedNSURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E194F1ACCDE1C00352C6C /* ISPPinnedNSURLConnectionDelegate.m */; };
+		1CB1749623FEBFC6006AA3E7 /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E19511ACCDE1C00352C6C /* ISPPinnedNSURLSessionDelegate.m */; };
+		1CB174A023FEC3D8006AA3E7 /* AmplitudeLibraryMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB173EB23FE85B0006AA3E7 /* AmplitudeLibraryMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		343AB41A1CC99F4F00962943 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 343AB4191CC99F4F00962943 /* AmplitudeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		343AB41F1CC99FB500962943 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC708591AD4B28300949778 /* AMPConstants.m */; };
 		343AB4201CC99FB800962943 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BA92721C2376680043178E /* AMPDatabaseHelper.m */; };
@@ -180,6 +211,10 @@
 		124CDDBC23EFF1B0004C7B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E8A613238740AF00921FC7 /* Amplitude+SSLPinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amplitude+SSLPinning.h"; sourceTree = "<group>"; };
 		1BA856C8A370EEFD82B1A3E0 /* libPods-shared-AmplitudeMacOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shared-AmplitudeMacOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB173EB23FE85B0006AA3E7 /* AmplitudeLibraryMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeLibraryMacOS.h; sourceTree = "<group>"; };
+		1CB173EC23FE8601006AA3E7 /* AmplitudePublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudePublic.h; sourceTree = "<group>"; };
+		1CB173ED23FE8737006AA3E7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		1CB1747023FEBF33006AA3E7 /* libAmplitudeLibraryMacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAmplitudeLibraryMacOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF658830718163F3F03BA5D /* libPods-shared-AmplitudeTVOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shared-AmplitudeTVOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA597802A76C5BEF9166619 /* Pods-shared-AmplitudeTVOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-AmplitudeTVOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shared-AmplitudeTVOSTests/Pods-shared-AmplitudeTVOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		343AB4171CC99F4F00962943 /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,6 +311,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CB1746E23FEBF33006AA3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		343AB4131CC99F4F00962943 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +383,15 @@
 				124CDDBC23EFF1B0004C7B27 /* Info.plist */,
 			);
 			path = AmplitudeMacOSTests;
+			sourceTree = "<group>";
+		};
+		1CB1736023FE7C2A006AA3E7 /* AmplitudeLibraryMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CB173ED23FE8737006AA3E7 /* module.modulemap */,
+				1CB173EB23FE85B0006AA3E7 /* AmplitudeLibraryMacOS.h */,
+			);
+			path = AmplitudeLibraryMacOS;
 			sourceTree = "<group>";
 		};
 		343AB4181CC99F4F00962943 /* AmplitudeFramework */ = {
@@ -409,6 +460,7 @@
 				124CDD8E23EFEEF2004C7B27 /* AmplitudeTVOSTests */,
 				124CDD9E23EFEFFD004C7B27 /* AmplitudeFrameworkMacOS */,
 				124CDDB923EFF1B0004C7B27 /* AmplitudeMacOSTests */,
+				1CB1736023FE7C2A006AA3E7 /* AmplitudeLibraryMacOS */,
 				E98C05241A48E7FE00800C63 /* Products */,
 				DA44019A1FBCE41A7F8C6968 /* Pods */,
 				9D55C176B7CB02D142328C19 /* Frameworks */,
@@ -425,6 +477,7 @@
 				124CDD8D23EFEEF2004C7B27 /* AmplitudeTVOSTests.xctest */,
 				124CDD9D23EFEFFD004C7B27 /* AmplitudeFrameworkMacOS.framework */,
 				124CDDB823EFF1B0004C7B27 /* AmplitudeMacOSTests.xctest */,
+				1CB1747023FEBF33006AA3E7 /* libAmplitudeLibraryMacOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -432,6 +485,7 @@
 		E98C05251A48E7FE00800C63 /* Amplitude */ = {
 			isa = PBXGroup;
 			children = (
+				1CB173EC23FE8601006AA3E7 /* AmplitudePublic.h */,
 				E96785E21A48E93F00887CCD /* AMPConstants.h */,
 				9DC708591AD4B28300949778 /* AMPConstants.m */,
 				60BA92711C2376680043178E /* AMPDatabaseHelper.h */,
@@ -502,6 +556,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				124CDDAD23EFEFFD004C7B27 /* AmplitudeFrameworkMacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB1746C23FEBF33006AA3E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB174A023FEC3D8006AA3E7 /* AmplitudeLibraryMacOS.h in Headers */,
+				1CB1747923FEBF9A006AA3E7 /* AmplitudePublic.h in Headers */,
+				1CB1747A23FEBF9A006AA3E7 /* AMPConstants.h in Headers */,
+				1CB1747B23FEBF9A006AA3E7 /* AMPDatabaseHelper.h in Headers */,
+				1CB1747C23FEBF9A006AA3E7 /* AMPDeviceInfo.h in Headers */,
+				1CB1747D23FEBF9A006AA3E7 /* AMPIdentify.h in Headers */,
+				1CB1747E23FEBF9A006AA3E7 /* Amplitude.h in Headers */,
+				1CB1747F23FEBF9A006AA3E7 /* Amplitude+SSLPinning.h in Headers */,
+				1CB1748023FEBF9A006AA3E7 /* AMPLocationManagerDelegate.h in Headers */,
+				1CB1748123FEBF9A006AA3E7 /* AMPRevenue.h in Headers */,
+				1CB1748223FEBF9A006AA3E7 /* AMPTrackingOptions.h in Headers */,
+				1CB1748323FEBF9A006AA3E7 /* AMPURLConnection.h in Headers */,
+				1CB1748423FEBF9A006AA3E7 /* AMPURLSession.h in Headers */,
+				1CB1748523FEBF9A006AA3E7 /* AMPUtils.h in Headers */,
+				1CB1748623FEBF9A006AA3E7 /* ISPCertificatePinning.h in Headers */,
+				1CB1748723FEBF9A006AA3E7 /* ISPPinnedNSURLConnectionDelegate.h in Headers */,
+				1CB1748823FEBF9A006AA3E7 /* ISPPinnedNSURLSessionDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +688,23 @@
 			productReference = 124CDDB823EFF1B0004C7B27 /* AmplitudeMacOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1CB1746F23FEBF33006AA3E7 /* AmplitudeLibraryMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB1747623FEBF33006AA3E7 /* Build configuration list for PBXNativeTarget "AmplitudeLibraryMacOS" */;
+			buildPhases = (
+				1CB1746C23FEBF33006AA3E7 /* Headers */,
+				1CB1746D23FEBF33006AA3E7 /* Sources */,
+				1CB1746E23FEBF33006AA3E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmplitudeLibraryMacOS;
+			productName = AmplitudeLibraryMacOS;
+			productReference = 1CB1747023FEBF33006AA3E7 /* libAmplitudeLibraryMacOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		343AB4161CC99F4F00962943 /* AmplitudeFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343AB41E1CC99F4F00962943 /* Build configuration list for PBXNativeTarget "AmplitudeFramework" */;
@@ -702,6 +797,11 @@
 						CreatedOnToolsVersion = 11.3;
 						ProvisioningStyle = Automatic;
 					};
+					1CB1746F23FEBF33006AA3E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = MEHY5QF425;
+						ProvisioningStyle = Automatic;
+					};
 					343AB4161CC99F4F00962943 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -733,6 +833,7 @@
 				E98C052D1A48E7FE00800C63 /* AmplitudeTests */,
 				124CDD8C23EFEEF2004C7B27 /* AmplitudeTVOSTests */,
 				124CDDB723EFF1B0004C7B27 /* AmplitudeMacOSTests */,
+				1CB1746F23FEBF33006AA3E7 /* AmplitudeLibraryMacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -885,6 +986,27 @@
 				124CDDC523EFF1D1004C7B27 /* Amplitude+Test.m in Sources */,
 				124CDDCF23EFF1F8004C7B27 /* SetupTests.m in Sources */,
 				124CDDD023EFF1FB004C7B27 /* SSLPinningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB1746D23FEBF33006AA3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB1748923FEBFC6006AA3E7 /* AMPConstants.m in Sources */,
+				1CB1748A23FEBFC6006AA3E7 /* AMPDatabaseHelper.m in Sources */,
+				1CB1748B23FEBFC6006AA3E7 /* AMPDeviceInfo.m in Sources */,
+				1CB1748C23FEBFC6006AA3E7 /* AMPIdentify.m in Sources */,
+				1CB1748D23FEBFC6006AA3E7 /* Amplitude.m in Sources */,
+				1CB1748E23FEBFC6006AA3E7 /* AMPLocationManagerDelegate.m in Sources */,
+				1CB1748F23FEBFC6006AA3E7 /* AMPRevenue.m in Sources */,
+				1CB1749023FEBFC6006AA3E7 /* AMPTrackingOptions.m in Sources */,
+				1CB1749123FEBFC6006AA3E7 /* AMPURLConnection.m in Sources */,
+				1CB1749223FEBFC6006AA3E7 /* AMPURLSession.m in Sources */,
+				1CB1749323FEBFC6006AA3E7 /* AMPUtils.m in Sources */,
+				1CB1749423FEBFC6006AA3E7 /* ISPCertificatePinning.m in Sources */,
+				1CB1749523FEBFC6006AA3E7 /* ISPPinnedNSURLConnectionDelegate.m in Sources */,
+				1CB1749623FEBFC6006AA3E7 /* ISPPinnedNSURLSessionDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,7 +1193,6 @@
 				INFOPLIST_FILE = AmplitudeFrameworkMacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.AmplitudeFrameworkMacOS;
@@ -1105,7 +1226,6 @@
 				INFOPLIST_FILE = AmplitudeFrameworkMacOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.AmplitudeFrameworkMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1163,6 +1283,56 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.AmplitudeMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CB1747723FEBF33006AA3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MEHY5QF425;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MODULEMAP_FILE = Sources/Amplitude/Amplitude.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_MODULE_NAME = Amplitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CB1747823FEBF33006AA3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MEHY5QF425;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MODULEMAP_FILE = Sources/Amplitude/Amplitude.modulemap;
+				MTL_FAST_MATH = YES;
+				PRODUCT_MODULE_NAME = Amplitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -1338,6 +1508,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lsqlite3.0";
@@ -1388,6 +1559,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-lsqlite3.0";
 				SDKROOT = iphoneos;
@@ -1485,6 +1657,15 @@
 			buildConfigurations = (
 				124CDDC123EFF1B0004C7B27 /* Debug */,
 				124CDDC223EFF1B0004C7B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB1747623FEBF33006AA3E7 /* Build configuration list for PBXNativeTarget "AmplitudeLibraryMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB1747723FEBF33006AA3E7 /* Debug */,
+				1CB1747823FEBF33006AA3E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,5 @@
+
+module Amplitude {
+    umbrella header "AmplitudeLibraryMacOS.h"
+    export *
+}
