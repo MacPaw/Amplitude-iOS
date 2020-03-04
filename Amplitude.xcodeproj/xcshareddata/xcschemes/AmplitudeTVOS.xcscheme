@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "37802BD01E86AF65003E5A8B"
                BuildableName = "Amplitude.framework"
-               BlueprintName = "AmplitudeFrameworkTVOS"
+               BlueprintName = "AmplitudeTVOS"
                ReferencedContainer = "container:Amplitude.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "37802BD01E86AF65003E5A8B"
+            BuildableName = "Amplitude.framework"
+            BlueprintName = "AmplitudeTVOS"
+            ReferencedContainer = "container:Amplitude.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "600CBC5B1E2EF5B0001F58A9"
+               BlueprintIdentifier = "124CDD8C23EFEEF2004C7B27"
                BuildableName = "AmplitudeTVOSTests.xctest"
                BlueprintName = "AmplitudeTVOSTests"
                ReferencedContainer = "container:Amplitude.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "60F36EE11E2EAC8C00BA4203"
-            BuildableName = "AmplitudeTVOS.framework"
-            BlueprintName = "AmplitudeTVOS"
-            ReferencedContainer = "container:Amplitude.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -66,12 +64,10 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "37802BD01E86AF65003E5A8B"
             BuildableName = "Amplitude.framework"
-            BlueprintName = "AmplitudeFrameworkTVOS"
+            BlueprintName = "AmplitudeTVOS"
             ReferencedContainer = "container:Amplitude.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
