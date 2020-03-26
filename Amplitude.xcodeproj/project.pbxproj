@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120A6DD1241F571C0007C375 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 120A6DD0241F571C0007C375 /* AmplitudePrivate.h */; };
+		120A6DD2241F571C0007C375 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 120A6DD0241F571C0007C375 /* AmplitudePrivate.h */; };
+		120A6DD3241F571C0007C375 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 120A6DD0241F571C0007C375 /* AmplitudePrivate.h */; };
 		1213D89B24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; };
 		1213D89C24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; };
 		1213D89D24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; };
@@ -169,6 +172,7 @@
 
 /* Begin PBXFileReference section */
 		06C7F03B80723C98EEE07DBA /* Pods-shared-Amplitude_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-Amplitude_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shared-Amplitude_iOSTests/Pods-shared-Amplitude_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		120A6DD0241F571C0007C375 /* AmplitudePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudePrivate.h; sourceTree = "<group>"; };
 		1213D80B2416F3EA00300E98 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1213D89824176E4700300E98 /* AmplitudeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplitudeFramework.h; sourceTree = "<group>"; };
 		1213D89924176E4700300E98 /* Amplitude.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Amplitude.modulemap; sourceTree = "<group>"; };
@@ -482,6 +486,7 @@
 				60BA92761C2376680043178E /* AMPUtils.m */,
 				12C9738A2412426700E9CDDB /* Resources */,
 				9D6E194B1ACCDE1C00352C6C /* SSLCertificatePinning */,
+				120A6DD0241F571C0007C375 /* AmplitudePrivate.h */,
 			);
 			path = Amplitude;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120A6DD2241F571C0007C375 /* AmplitudePrivate.h in Headers */,
 				12C9737C2412421900E9CDDB /* AMPLocationManagerDelegate.h in Headers */,
 				12C97395241242B500E9CDDB /* AMPIdentify.h in Headers */,
 				12C97392241242A200E9CDDB /* Amplitude+SSLPinning.h in Headers */,
@@ -516,6 +522,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120A6DD1241F571C0007C375 /* AmplitudePrivate.h in Headers */,
 				12C973A02412433200E9CDDB /* ISPPinnedNSURLSessionDelegate.h in Headers */,
 				12C97397241242CC00E9CDDB /* AMPTrackingOptions.h in Headers */,
 				12C973352412416B00E9CDDB /* AMPConstants.h in Headers */,
@@ -539,6 +546,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120A6DD3241F571C0007C375 /* AmplitudePrivate.h in Headers */,
 				12C9737D2412421A00E9CDDB /* AMPLocationManagerDelegate.h in Headers */,
 				12C97396241242B600E9CDDB /* AMPIdentify.h in Headers */,
 				12C97393241242A300E9CDDB /* Amplitude+SSLPinning.h in Headers */,
@@ -1241,6 +1249,7 @@
 		12C972F924105C6500E9CDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1256,6 +1265,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -1275,6 +1285,7 @@
 		12C972FA24105C6500E9CDDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1291,6 +1302,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -1403,6 +1415,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -1458,6 +1471,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
