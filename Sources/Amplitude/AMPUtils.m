@@ -38,7 +38,7 @@
 @interface AMPUtils()
 @end
 
-static NSString *customPlatformDaraDirectoryPath = nil;
+static NSString *customPlatformDataDirectoryPath = nil;
 
 @implementation AMPUtils
 
@@ -152,13 +152,13 @@ static NSString *customPlatformDaraDirectoryPath = nil;
 #if TARGET_OS_TV
     return [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex: 0];
 #else
-    return customPlatformDaraDirectoryPath ? : [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) objectAtIndex: 0];
+    return customPlatformDataDirectoryPath ? : [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) objectAtIndex: 0];
 #endif
 }
 
 + (void)setCustomPlatformDataDirectoryPath:(NSString *)platformDataDirectoryPath
 {
-    customPlatformDaraDirectoryPath = platformDataDirectoryPath;
+    customPlatformDataDirectoryPath = platformDataDirectoryPath;
 }
 
 @end
