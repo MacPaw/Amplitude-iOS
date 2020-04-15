@@ -145,6 +145,18 @@
 + (Amplitude *)instance;
 
 /**
+ This fetches the default SDK instance. Recommended if you are only logging events to a single app.
+ 
+ Additionally this method sets custom custom path for local data to allow host application
+ locate service files in desired directory
+
+ @param dataDirectoryPath path to custom directory to keep all related data.
+ 
+ @returns the default Amplitude SDK instance
+ */
++ (Amplitude *)instanceWithDataDirectoryPath:(NSString *)dataDirectoryPath;
+
+/**
  This fetches a named SDK instance. Use this if logging events to multiple Amplitude apps.
 
  @param instanceName the name of the SDK instance to fetch.
