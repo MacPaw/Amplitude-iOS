@@ -31,4 +31,6 @@
 + (NSDictionary*)validateGroups:(NSDictionary*) obj;
 + (NSString*)platformDataDirectory;
 
++ (void)setCustomPlatformDataDirectoryPath:(NSString *)platformDataDirectoryPath;
+
 @end

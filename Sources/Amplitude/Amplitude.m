@@ -144,6 +144,11 @@ static NSString *const SEQUENCE_NUMBER = @"sequence_number";
     return [Amplitude instanceWithName:nil];
 }
 
++ (Amplitude *)instanceWithDataDirectoryPath:(NSString *)dataDirectoryPath {
+    [AMPUtils setCustomPlatformDataDirectoryPath:dataDirectoryPath];
+    return [self instance];
+}
+
 + (Amplitude *)instanceWithName:(NSString*)instanceName {
     static NSMutableDictionary *_instances = nil;
     static dispatch_once_t onceToken;
