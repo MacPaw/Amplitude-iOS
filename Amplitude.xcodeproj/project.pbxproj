@@ -615,7 +615,7 @@
 		E98C051B1A48E7FE00800C63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Amplitude;
 				TargetAttributes = {
 					12C972AE24105B2C00E9CDDB = {
